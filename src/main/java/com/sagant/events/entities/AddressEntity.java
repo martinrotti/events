@@ -21,10 +21,6 @@ public class AddressEntity {
     private String address;
 
     @ManyToMany(fetch = FetchType.EAGER)
-    /*@JoinTable(
-            name = "user_address", schema = "public",
-            joinColumns = @JoinColumn(name = "address_id"),
-            inverseJoinColumns = @JoinColumn(name = "user_id"))*/
     Set<UserEntity> users;
 
     public AddressEntity(String address) {

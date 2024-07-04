@@ -16,7 +16,7 @@ import java.util.Set;
 
 /**
  * Service para el manejo de usuarios de la aplicación.
- * Provee los métodos CRUD
+ * Provee los métodos CRUD y el de asociar direcciones a usuarios
  */
 @Service
 public class UserService {
